@@ -36,7 +36,7 @@ core@ip-10-0-6-238 ~/ $ cd marathon-autoscale
 	root@ip-10-2-6-238 ~/marathon-autoscale $ python marathon-autoscale.py 
 	Enter the Marathon Application Name to Configure Autoscale for from the Marathon UI : basic-0
 	Enter the Max percent of Mem Usage averaged across all Application Instances to trigger Autoscale (ie. 80) : 5
-	Enter the Max percent of CPU Usage averaged across all Application Instances to trigger Autoscale (ie. 80) : 5
+	Enter the Max coefficient of CPU Usage averaged across all Application Instances to trigger Autoscale (ie. 1 for 100% of 1 CPU) : 5
 	Enter which metric(s) to trigger Autoscale ('and', 'or') : or
 	Enter Autoscale multiplier for triggered Autoscale (ie 1.5) : 2
 	Enter the Max instances that should ever exist for this application (ie. 20) : 10
